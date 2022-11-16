@@ -162,6 +162,11 @@ public class SelectCarUIHandler : MonoBehaviour
 
         SceneManager.LoadScene("Map1_2Player");
     }
+    public void OnSelectCarMap2_2()
+    {
+
+        SceneManager.LoadScene("Map2_2Player");
+    }
 
     IEnumerator SpawnCarCO(bool isCarAppearingOnRightSide)
     {
